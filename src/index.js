@@ -1,7 +1,6 @@
 module.exports = function check(str, bracketsConfig) {
   // your solution
   
-  function check(str, braketsConfig){
     let res = []
     let bracketsPairs = {}
 
@@ -27,7 +26,7 @@ module.exports = function check(str, bracketsConfig) {
     return !res.length
 
 
-   }
+   
   
   
   
