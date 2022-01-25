@@ -11,7 +11,7 @@ module.exports = function check(str, bracketsConfig) {
         bracketsPairs[pair[1]]=pair[0]
     }
 
-    console.log('--->', bracketsPairs)
+//     console.log('--->', bracketsPairs)
 
     for(char of str){
         if(Object.values(bracketsPairs).includes(char)) {
@@ -23,7 +23,7 @@ module.exports = function check(str, bracketsConfig) {
                 return false                
             }
         }
-        console.log(char, res)
+//         console.log(char, res)
 
     }
     return !res.length
